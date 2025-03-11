@@ -26,7 +26,7 @@ export const UiGithubAccount = ({
         <div className="flex justify-start items-center gap-2">
           <div className="flex justify-start items-center gap-2 grow-1">
             <Avatar>
-              <AvatarImage src="https://github.com/shadcn.png" alt="@shadcn" />
+              <AvatarImage src={account?.avatar_url} alt="@shadcn" />
               <AvatarFallback>CN</AvatarFallback>
             </Avatar>
             <h6 className="text-bold">{account.login}</h6>
